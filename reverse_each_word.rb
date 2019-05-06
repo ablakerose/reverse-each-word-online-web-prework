@@ -3,6 +3,6 @@ def reverse_each_word(sentence)
   item = 0
     reversed_string = sentence[item] + reversed_string
     item +=1
-  end 
+  end
   return reversed_string
 end
