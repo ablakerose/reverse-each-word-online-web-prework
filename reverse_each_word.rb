@@ -1,6 +1,6 @@
 def reverse_each_word(sentence)
-  sentence.split
-  sentence.map do |item|
+  words = sentence.split(" ")
+  words.map do |item|
     item.reverse_each
   end
 end
